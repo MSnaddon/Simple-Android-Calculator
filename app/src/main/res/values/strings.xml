@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Zonal Calculator</string>
+    <string name="empty_calculator">----</string>
 </resources>
