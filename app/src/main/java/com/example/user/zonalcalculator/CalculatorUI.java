@@ -78,9 +78,7 @@ public class CalculatorUI extends AppCompatActivity {
         try {
             double n1 = Double.parseDouble(mNumber1.getText().toString());
             double n2 = Double.parseDouble(mNumber2.getText().toString());
-            mCalcOut.setText(
-                    new DecimalFormat("#.##########")
-                            .format(calculator.calculate(n1, n2, operand)));
+            mCalcOut.setText(new DecimalFormat("#.##########").format(calculator.calculate(n1, n2, operand)));
         } catch (NumberFormatException err) {
             mCalcOut.setText(err.getMessage());
         }
