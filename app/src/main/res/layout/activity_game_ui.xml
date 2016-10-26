@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:textSize="30sp"
             android:text="@string/app_name"
-            android:id="@+id/textView"
+            android:id="@+id/calculator_output"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
@@ -30,7 +30,7 @@
             android:background="@android:color/darker_gray"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textView"
+            android:layout_below="@+id/calculator_output"
             android:id="@+id/view" />
 
         <FrameLayout
@@ -60,14 +60,14 @@
 
     <GridLayout
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal">
 
         <Button
             android:layout_width="85dp"
             android:layout_height="wrap_content"
             android:text="@string/add"
-            android:id="@+id/button"
+            android:id="@+id/add"
             android:layout_row="0"
             android:layout_column="0" />
 
@@ -75,7 +75,7 @@
             android:layout_width="85dp"
             android:layout_height="wrap_content"
             android:text="@string/subtract"
-            android:id="@+id/button2"
+            android:id="@+id/subtract"
             android:layout_row="0"
             android:layout_column="1" />
 
@@ -83,7 +83,7 @@
             android:layout_width="85dp"
             android:layout_height="wrap_content"
             android:text="@string/multiply"
-            android:id="@+id/button3"
+            android:id="@+id/multiply"
             android:layout_row="0"
             android:layout_column="2" />
 
@@ -91,7 +91,7 @@
             android:layout_width="85dp"
             android:layout_height="wrap_content"
             android:text="@string/divide"
-            android:id="@+id/button4"
+            android:id="@+id/divide"
             android:layout_row="0"
             android:layout_column="3" />
 
@@ -99,7 +99,7 @@
             android:layout_width="343dp"
             android:layout_height="wrap_content"
             android:text="@string/equals"
-            android:id="@+id/button5"
+            android:id="@+id/equals"
             android:layout_row="1"
             android:layout_column="0"
             android:layout_columnSpan="4" />
